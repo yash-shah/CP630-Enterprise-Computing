@@ -1,8 +1,9 @@
-# CP630-Enterprise-Computing
+# Household Grocery Spending Predictor
 *Yash Shah*
-**Master of Applied Computing - Wilfrid Laurier University**
 
-Household Grocery Spending Predictor
+*Master of Applied Computing - Wilfrid Laurier University*
+
+*CP630: Enterprise Computing*
 
 ## Running this Project:
 ### Start Spark master node using following command:
