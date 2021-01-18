@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Household RS test</title>
+</head>
+<body>
+
+Save Data to File<br>
+<form action = "/household-rs/rest/save" method = "POST">
+     groceryBill: <input type = "text" name = "groceryBill"> <br>
+     adults: <input type = "text" name = "adults"> <br>
+     familyIncome: <input type = "text" name = "familyIncome"> <br>
+     vehicles: <input type = "text" name = "vehicles"> <br>
+     distanceToStore: <input type = "text" name = "distanceToStore"> <br>
+     vegetarian: <input type = "text" name = "vegetarian"> <br>
+     children: <input type = "text" name = "children"> <br>
+    <input type = "submit" value = "Submit" />
+</form>
+
+Load Data(train and test)<br>
+<form action = "/household-rs/rest/load" method = "POST">
+    <input type = "submit" value = "Submit" />
+</form>
+
+Predict RESTful service test using JSON<br>
+<form action = "/household-rs/rest/predict" method = "POST">
+     Value: <input type = "text" name = "value"> <br>
+    <input type = "submit" value = "Submit" />
+</form>
+
+</body>
+</html>
